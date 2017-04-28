@@ -90,7 +90,7 @@
 								</div>
 
 								<div class="form-group @if($errors->has('image')) has-error @endif">
-									<label class="col-md-3 control-label" for="image-field">Image *</label>
+									<label class="col-md-3 control-label" for="image-field">Image</label>
 									<div class="col-md-9">
 										<!-- <input type="text" id="image-field" name="image" class="form-control" value="{{ old("image") }}"/> -->
 										<!-- <label class="custom-file">
@@ -103,7 +103,7 @@
 													<i class="fa fa-file fileinput-exists"></i>&nbsp; <span class="fileinput-filename"> </span>
 												</div>
 												<span class="input-group-addon btn default btn-file"> <span class="fileinput-new"> Select file </span> <span class="fileinput-exists"> Change </span>
-													<input type="file" name="image" class="custom-file-input validate[required]">
+													<input type="file" name="image" class="custom-file-input">
 												</span>
 												<a href="javascript:;" class="input-group-addon btn red fileinput-exists" data-dismiss="fileinput"> Remove </a>
 											</div>
